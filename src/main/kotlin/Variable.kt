@@ -1,5 +1,3 @@
-package variable
-
 fun main() {
 
     var changeableNumber = 1; //변경 가능
@@ -13,6 +11,7 @@ fun main() {
     //null이 들어갈 수 있는지 명시적으로 작성
     var nullable: Long? = null;
 
+    //생성시 new 키워드를 사용하지 않는다.
     var city: City = City(1, "부산");
 
     //자동으로 getter 생성
