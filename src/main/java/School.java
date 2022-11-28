@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.Nullable;
-
 public class School {
 
     private final String name;
