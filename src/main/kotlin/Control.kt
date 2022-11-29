@@ -3,11 +3,11 @@ import java.lang.IllegalArgumentException
 fun main() {
 
     validateNumber(50);
-
+    
 }
 
 fun validateNumber(number: Int) {
-    if (number < 100) {
+    if (number > 100) {
         throw IllegalArgumentException("${number}은 100보다 작을 수 없습니다!")
     }
 }
